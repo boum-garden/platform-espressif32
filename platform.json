@@ -4,13 +4,7 @@
   "description": "Espressif Systems is a privately held fabless semiconductor company. They provide wireless communications and Wi-Fi chips which are widely used in mobile devices and the Internet of Things applications.",
   "homepage": "https://espressif.com/",
   "license": "Apache-2.0",
-  "keywords": [
-    "dev-platform",
-    "Wi-Fi",
-    "Bluetooth",
-    "Xtensa",
-    "LX6"
-  ],
+  "keywords": ["dev-platform", "Wi-Fi", "Bluetooth", "Xtensa", "LX6"],
   "engines": {
     "platformio": "^5"
   },
@@ -72,10 +66,10 @@
       "version": "~1.22851.0"
     },
     "framework-arduinoespressif32": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~3.10006.0"
+      "type": "git",
+      "owner": "espressif",
+      "url": "https://github.com/espressif/arduino-esp32.git",
+      "sha": "ac961f671abd5ae1da0a15fd4bee71ed807c2cf3"
     },
     "framework-arduino-mbcwb": {
       "type": "framework",
