@@ -68,7 +68,7 @@
     "framework-arduinoespressif32": {
       "type": "git",
       "url": "https://github.com/espressif/arduino-esp32.git",
-      "sha": "ac961f671abd5ae1da0a15fd4bee71ed807c2cf3"
+      "branch": "v3.1.x"
     },
     "framework-arduino-mbcwb": {
       "type": "framework",
