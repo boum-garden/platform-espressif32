@@ -67,8 +67,8 @@
     },
     "framework-arduinoespressif32": {
       "type": "git",
-      "url": "https://github.com/espressif/arduino-esp32.git",
-      "branch": "v3.1.x"
+      "url": "https://github.com/boum-garden/arduino-esp32.git",
+      "branch": "patch/partition-table-offset"
     },
     "framework-arduino-mbcwb": {
       "type": "framework",
